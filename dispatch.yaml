@@ -1,0 +1,13 @@
+dispatch:
+- url: "www.medium-appengine-domain1.tk/*"
+  service: default
+- url: "medium-appengine-domain1.tk/*"
+  service: default
+- url: "go-app.medium-appengine-domain1.tk/*"
+  service: go
+- url: "node-app.medium-appengine-domain2.ml/*"
+  service: node
+- url: "java-app.medium-appengine-domain2.ml/*"
+  service: java
+- url: "php-app.medium-appengine-domain2.ml/*"
+  service: php
